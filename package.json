@@ -1,0 +1,9 @@
+{
+  "name": "99-cooking-company",
+  "version": "1.0.0",
+  "description": "99 Cooking — Autonomous Software Kitchen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
