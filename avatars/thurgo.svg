@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Thurgo - Imcando Dwarf - Blue skin, white beard, loves redberry pie -->
+  <defs>
+    <linearGradient id="thurgo-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1520"/>
+      <stop offset="100%" style="stop-color:#050a15"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#thurgo-bg)"/>
+  <!-- Helmet - smithing helmet with glow -->
+  <path d="M28 40 Q28 22 50 18 Q72 22 72 40 L68 42 L32 42 Z" fill="#5a5a6a"/>
+  <path d="M32 40 Q32 26 50 22 Q68 26 68 40" fill="#6a6a7a"/>
+  <!-- Helmet ridge -->
+  <path d="M40 18 Q50 12 60 18" fill="none" stroke="#8a8a9a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Helmet rim -->
+  <rect x="28" y="40" width="44" height="4" rx="2" fill="#4a4a5a"/>
+  <!-- Face - blue Imcando skin -->
+  <ellipse cx="50" cy="52" rx="18" ry="15" fill="#4488cc"/>
+  <ellipse cx="50" cy="52" rx="16" ry="13" fill="#5599dd"/>
+  <!-- Bushy eyebrows -->
+  <path d="M35 46 Q38 43 44 45" stroke="#ddd" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M56 45 Q62 43 65 46" stroke="#ddd" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Eyes - small, squinting, wise -->
+  <ellipse cx="40" cy="49" rx="3" ry="2.5" fill="#0a1520"/>
+  <ellipse cx="60" cy="49" rx="3" ry="2.5" fill="#0a1520"/>
+  <circle cx="41" cy="48.5" r="1" fill="#60a5fa"/>
+  <circle cx="61" cy="48.5" r="1" fill="#60a5fa"/>
+  <!-- Nose - big dwarf nose -->
+  <ellipse cx="50" cy="54" rx="4" ry="3" fill="#4488cc"/>
+  <path d="M46 54 Q50 58 54 54" fill="#3d7abb"/>
+  <!-- Big white beard -->
+  <path d="M32 56 Q30 58 28 70 Q30 85 40 88 Q50 92 60 88 Q70 85 72 70 Q70 58 68 56" 
+        fill="#e8e8f0"/>
+  <path d="M34 58 Q32 60 30 72 Q32 83 42 86 Q50 88 58 86 Q68 83 70 72 Q68 60 66 58" 
+        fill="#f0f0f8"/>
+  <!-- Beard texture lines -->
+  <path d="M40 62 Q42 75 40 85" stroke="#d8d8e0" stroke-width="1" fill="none"/>
+  <path d="M50 60 Q50 76 50 88" stroke="#d8d8e0" stroke-width="1" fill="none"/>
+  <path d="M60 62 Q58 75 60 85" stroke="#d8d8e0" stroke-width="1" fill="none"/>
+  <!-- Mouth hidden in beard - just a hint -->
+  <path d="M44 60 Q50 63 56 60" stroke="#c8c8d0" stroke-width="1" fill="none"/>
+  <!-- Shoulders - smithing apron -->
+  <path d="M15 95 Q25 75 32 68 L68 68 Q75 75 85 95" fill="#5a4a3a"/>
+  <path d="M38 70 L38 95 L62 95 L62 70" fill="#6a5a4a"/>
+</svg>

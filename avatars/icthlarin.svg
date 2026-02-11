@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Icthlarin - Jackal-headed god of the dead - Egyptian/dark theme -->
+  <defs>
+    <linearGradient id="icth-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1520"/>
+      <stop offset="100%" style="stop-color:#0f0a15"/>
+    </linearGradient>
+    <linearGradient id="jackal-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a3a2a"/>
+      <stop offset="100%" style="stop-color:#2a2018"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#icth-bg)"/>
+  <!-- Ears - tall pointed jackal ears -->
+  <path d="M32 38 L28 10 Q30 8 34 12 L38 35" fill="url(#jackal-fur)" stroke="#5a4a3a" stroke-width="1"/>
+  <path d="M68 38 L72 10 Q70 8 66 12 L62 35" fill="url(#jackal-fur)" stroke="#5a4a3a" stroke-width="1"/>
+  <!-- Inner ear -->
+  <path d="M33 35 L30 14 L36 32" fill="#3a2a1a"/>
+  <path d="M67 35 L70 14 L64 32" fill="#3a2a1a"/>
+  <!-- Head shape - elongated snout -->
+  <ellipse cx="50" cy="45" rx="18" ry="20" fill="url(#jackal-fur)"/>
+  <!-- Snout -->
+  <ellipse cx="50" cy="58" rx="10" ry="8" fill="#3a2a1a"/>
+  <ellipse cx="50" cy="56" rx="8" ry="6" fill="#4a3a2a"/>
+  <!-- Nose -->
+  <ellipse cx="50" cy="54" rx="4" ry="2.5" fill="#1a1210"/>
+  <!-- Eyes - cyan, watching -->
+  <ellipse cx="40" cy="42" rx="5" ry="4" fill="#0f0a15"/>
+  <ellipse cx="60" cy="42" rx="5" ry="4" fill="#0f0a15"/>
+  <ellipse cx="40" cy="42" rx="3" ry="2.5" fill="#22d3ee"/>
+  <ellipse cx="60" cy="42" rx="3" ry="2.5" fill="#22d3ee"/>
+  <circle cx="41" cy="41" r="1" fill="#a5f3fc" opacity="0.8"/>
+  <circle cx="61" cy="41" r="1" fill="#a5f3fc" opacity="0.8"/>
+  <!-- Egyptian collar/nemes -->
+  <path d="M25 70 Q30 62 38 60 L62 60 Q70 62 75 70 L80 90 L20 90 Z" fill="#22d3ee" opacity="0.15"/>
+  <path d="M28 72 Q32 64 40 62 L60 62 Q68 64 72 72" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4"/>
+  <path d="M30 76 Q34 68 42 66 L58 66 Q66 68 70 76" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.3"/>
+  <!-- Ankh symbol on chest -->
+  <circle cx="50" cy="78" r="3" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+  <line x1="50" y1="81" x2="50" y2="90" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+  <line x1="46" y1="85" x2="54" y2="85" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+  <!-- Subtle hieroglyphic marks on sides -->
+  <rect x="14" y="40" width="2" height="4" fill="#22d3ee" opacity="0.1"/>
+  <rect x="14" y="48" width="2" height="6" fill="#22d3ee" opacity="0.1"/>
+  <rect x="84" y="42" width="2" height="5" fill="#22d3ee" opacity="0.1"/>
+  <rect x="84" y="50" width="2" height="4" fill="#22d3ee" opacity="0.1"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Guthix - God of Balance - Green, nature, the balance symbol -->
+  <defs>
+    <linearGradient id="guth-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1f0a"/>
+      <stop offset="100%" style="stop-color:#051205"/>
+    </linearGradient>
+    <linearGradient id="guth-skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a9a5a"/>
+      <stop offset="100%" style="stop-color:#3d7a3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#guth-bg)"/>
+  <!-- Leafy vines in background -->
+  <path d="M15 90 Q20 70 18 50 Q16 35 25 20" fill="none" stroke="#2d5a2d" stroke-width="2" opacity="0.3"/>
+  <path d="M85 90 Q80 70 82 50 Q84 35 75 20" fill="none" stroke="#2d5a2d" stroke-width="2" opacity="0.3"/>
+  <!-- Small leaves -->
+  <ellipse cx="20" cy="40" rx="4" ry="2" fill="#3d7a3d" opacity="0.3" transform="rotate(-30 20 40)"/>
+  <ellipse cx="80" cy="45" rx="4" ry="2" fill="#3d7a3d" opacity="0.3" transform="rotate(30 80 45)"/>
+  <!-- Hood/cowl -->
+  <path d="M28 45 Q30 20 50 15 Q70 20 72 45 Q72 55 70 60 L30 60 Q28 55 28 45" fill="#2d5a2d"/>
+  <path d="M32 45 Q34 24 50 20 Q66 24 68 45 Q68 52 66 56 L34 56 Q32 52 32 45" fill="#1a3d1a"/>
+  <!-- Face -->
+  <ellipse cx="50" cy="48" rx="15" ry="17" fill="url(#guth-skin)"/>
+  <!-- Eyes - glowing green -->
+  <ellipse cx="43" cy="45" rx="4" ry="3" fill="#0a1f0a"/>
+  <ellipse cx="57" cy="45" rx="4" ry="3" fill="#0a1f0a"/>
+  <circle cx="43" cy="45" r="2" fill="#4ade80"/>
+  <circle cx="57" cy="45" r="2" fill="#4ade80"/>
+  <circle cx="43" cy="45" r="2" fill="#4ade80" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="57" cy="45" r="2" fill="#4ade80" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Balance symbol on forehead -->
+  <line x1="50" y1="30" x2="50" y2="37" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="44" y1="32" x2="56" y2="32" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="44" cy="33" r="1.5" fill="none" stroke="#4ade80" stroke-width="1"/>
+  <circle cx="56" cy="33" r="1.5" fill="none" stroke="#4ade80" stroke-width="1"/>
+  <!-- Mouth - serene -->
+  <path d="M45 54 Q50 56 55 54" stroke="#2d5a2d" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Beard - nature tendrils -->
+  <path d="M42 58 Q40 68 38 78" stroke="#3d7a3d" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M50 60 Q50 72 50 82" stroke="#3d7a3d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M58 58 Q60 68 62 78" stroke="#3d7a3d" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Shoulder area -->
+  <path d="M20 85 Q30 65 38 62 L62 62 Q70 65 80 85" fill="#2d5a2d"/>
+</svg>

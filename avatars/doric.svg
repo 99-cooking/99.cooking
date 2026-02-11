@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Doric - Humble dwarf, brown beard, mining/crafting helmet with candle -->
+  <defs>
+    <linearGradient id="doric-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1210"/>
+      <stop offset="100%" style="stop-color:#100a08"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#doric-bg)"/>
+  <!-- Mining helmet -->
+  <path d="M28 42 Q28 24 50 20 Q72 24 72 42 L68 44 L32 44 Z" fill="#8a7a50"/>
+  <path d="M32 42 Q32 28 50 24 Q68 28 68 42" fill="#9a8a60"/>
+  <!-- Helmet rim -->
+  <rect x="28" y="42" width="44" height="3" rx="1.5" fill="#7a6a40"/>
+  <!-- Candle on helmet -->
+  <rect x="48" y="12" width="4" height="10" rx="1" fill="#ddd8c0"/>
+  <!-- Flame -->
+  <path d="M50 12 Q47 6 50 2 Q53 6 50 12" fill="#ffd700"/>
+  <path d="M50 12 Q48 8 50 4 Q52 8 50 12" fill="#ffaa00"/>
+  <circle cx="50" cy="8" r="2" fill="#ffd700" opacity="0.3">
+    <animate attributeName="r" values="2;3;2" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Face - ruddy/warm skin -->
+  <ellipse cx="50" cy="54" rx="17" ry="14" fill="#c89070"/>
+  <ellipse cx="50" cy="54" rx="15" ry="12" fill="#d8a080"/>
+  <!-- Rosy cheeks -->
+  <circle cx="38" cy="56" r="4" fill="#e08060" opacity="0.4"/>
+  <circle cx="62" cy="56" r="4" fill="#e08060" opacity="0.4"/>
+  <!-- Eyes - friendly, round -->
+  <circle cx="42" cy="50" r="3.5" fill="#1a1210"/>
+  <circle cx="58" cy="50" r="3.5" fill="#1a1210"/>
+  <circle cx="43" cy="49" r="1.5" fill="#f87171"/>
+  <circle cx="59" cy="49" r="1.5" fill="#f87171"/>
+  <circle cx="43.5" cy="48.5" r="0.7" fill="#fff"/>
+  <circle cx="59.5" cy="48.5" r="0.7" fill="#fff"/>
+  <!-- Big nose -->
+  <ellipse cx="50" cy="55" rx="3.5" ry="3" fill="#c08060"/>
+  <!-- Bushy brown beard -->
+  <path d="M33 58 Q30 62 28 72 Q30 84 42 88 Q50 90 58 88 Q70 84 72 72 Q70 62 67 58" 
+        fill="#6a4a2a"/>
+  <path d="M35 60 Q32 64 30 73 Q32 82 43 86 Q50 87 57 86 Q68 82 70 73 Q68 64 65 60" 
+        fill="#7a5a3a"/>
+  <!-- Beard texture -->
+  <path d="M42 64 Q40 76 42 85" stroke="#6a4a2a" stroke-width="1" fill="none"/>
+  <path d="M50 62 Q50 78 50 87" stroke="#6a4a2a" stroke-width="1" fill="none"/>
+  <path d="M58 64 Q60 76 58 85" stroke="#6a4a2a" stroke-width="1" fill="none"/>
+  <!-- Mouth - cheerful, visible above beard -->
+  <path d="M44 60 Q50 64 56 60" stroke="#5a3a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Shoulders - work clothes -->
+  <path d="M15 95 Q25 78 33 70 L67 70 Q75 78 85 95" fill="#5a4a3a"/>
+  <!-- Tool straps -->
+  <line x1="40" y1="72" x2="38" y2="95" stroke="#4a3a2a" stroke-width="2"/>
+  <line x1="60" y1="72" x2="62" y2="95" stroke="#4a3a2a" stroke-width="2"/>
+</svg>

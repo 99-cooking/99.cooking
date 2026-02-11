@@ -151,16 +151,16 @@
     }
 
     .chef-avatar {
-      font-size: 4rem;
       flex-shrink: 0;
       width: 100px;
       height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--accent-glow);
       border-radius: 20px;
-      border: 1px solid rgba(255,107,53,0.2);
+      overflow: hidden;
+    }
+
+    .chef-avatar img {
+      width: 100%;
+      height: 100%;
     }
 
     .chef-info h3 {
@@ -232,14 +232,16 @@
     }
 
     .agent-icon {
-      font-size: 1.8rem;
-      width: 44px;
-      height: 44px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 10px;
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
       flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .agent-icon img {
+      width: 100%;
+      height: 100%;
     }
 
     .agent-name {
@@ -392,7 +394,7 @@
     <!-- Head Chef -->
     <section>
       <div class="chef-card">
-        <div class="chef-avatar">🦞</div>
+        <div class="chef-avatar"><img src="/avatars/99cooking.svg" alt="99 Cooking"></div>
         <div class="chef-info">
           <h3>99 Cooking</h3>
           <div class="chef-title">Head Chef</div>
@@ -421,7 +423,7 @@
 
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-icon" style="background: rgba(167,139,250,0.1);">🧠</div>
+            <div class="agent-icon"><img src="/avatars/subconscious.svg" alt="Subconscious"></div>
             <div>
               <div class="agent-name">Subconscious</div>
               <div class="agent-role">Systems Monitor</div>
@@ -440,7 +442,7 @@
 
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-icon" style="background: rgba(74,222,128,0.1);">⚖️</div>
+            <div class="agent-icon"><img src="/avatars/guthix.svg" alt="Guthix"></div>
             <div>
               <div class="agent-name">Guthix</div>
               <div class="agent-role">Server Maintainer God</div>
@@ -459,7 +461,7 @@
 
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-icon" style="background: rgba(34,211,238,0.1);">👁️</div>
+            <div class="agent-icon"><img src="/avatars/icthlarin.svg" alt="Icthlarin"></div>
             <div>
               <div class="agent-name">Icthlarin</div>
               <div class="agent-role">Silent Watcher</div>
@@ -478,7 +480,7 @@
 
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-icon" style="background: rgba(96,165,250,0.1);">👨‍💻</div>
+            <div class="agent-icon"><img src="/avatars/thurgo.svg" alt="Thurgo"></div>
             <div>
               <div class="agent-name">Thurgo</div>
               <div class="agent-role">Senior Developer</div>
@@ -497,7 +499,7 @@
 
         <div class="agent-card">
           <div class="agent-header">
-            <div class="agent-icon" style="background: rgba(248,113,113,0.1);">⌨️</div>
+            <div class="agent-icon"><img src="/avatars/doric.svg" alt="Doric"></div>
             <div>
               <div class="agent-name">Doric</div>
               <div class="agent-role">Developer</div>

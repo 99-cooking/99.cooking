@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Subconscious - Systems Monitor - An all-seeing eye/brain hybrid -->
+  <defs>
+    <linearGradient id="sub-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0f2e"/>
+      <stop offset="100%" style="stop-color:#0f0a1a"/>
+    </linearGradient>
+    <linearGradient id="eye-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="url(#sub-bg)"/>
+  <!-- Brain outline - top half -->
+  <path d="M30 48 Q28 30 38 24 Q44 20 50 22 Q56 20 62 24 Q72 30 70 48" 
+        fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.4"/>
+  <path d="M35 45 Q33 32 42 28 Q48 25 50 27 Q52 25 58 28 Q67 32 65 45" 
+        fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.3"/>
+  <!-- Brain folds -->
+  <path d="M42 28 Q50 35 58 28" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <path d="M36 36 Q50 42 64 36" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <!-- The Eye -->
+  <ellipse cx="50" cy="52" rx="24" ry="16" fill="none" stroke="url(#eye-glow)" stroke-width="2.5"/>
+  <ellipse cx="50" cy="52" rx="20" ry="13" fill="#1a0f2e"/>
+  <!-- Iris -->
+  <circle cx="50" cy="52" r="10" fill="#7c3aed"/>
+  <circle cx="50" cy="52" r="8" fill="#a78bfa"/>
+  <!-- Pupil -->
+  <circle cx="50" cy="52" r="5" fill="#0f0a1a"/>
+  <circle cx="48" cy="50" r="2" fill="#c4b5fd" opacity="0.7"/>
+  <!-- Scanning lines -->
+  <line x1="20" y1="52" x2="26" y2="52" stroke="#a78bfa" stroke-width="1" opacity="0.5"/>
+  <line x1="74" y1="52" x2="80" y2="52" stroke="#a78bfa" stroke-width="1" opacity="0.5"/>
+  <!-- Data streams below -->
+  <line x1="35" y1="72" x2="35" y2="80" stroke="#a78bfa" stroke-width="1" opacity="0.2"/>
+  <line x1="42" y1="74" x2="42" y2="85" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="72" x2="50" y2="88" stroke="#a78bfa" stroke-width="1" opacity="0.4"/>
+  <line x1="58" y1="74" x2="58" y2="85" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <line x1="65" y1="72" x2="65" y2="80" stroke="#a78bfa" stroke-width="1" opacity="0.2"/>
+  <!-- Small dots - data points -->
+  <circle cx="35" cy="76" r="1" fill="#a78bfa" opacity="0.5"/>
+  <circle cx="42" cy="80" r="1" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="50" cy="82" r="1.5" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="58" cy="79" r="1" fill="#a78bfa" opacity="0.6"/>
+  <circle cx="65" cy="77" r="1" fill="#a78bfa" opacity="0.5"/>
+</svg>
