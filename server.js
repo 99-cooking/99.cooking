@@ -16,8 +16,15 @@ const mimeTypes = {
 };
 
 const server = http.createServer((req, res) => {
-  let filePath = req.url === '/' ? '/index.html' : req.url;
-  filePath = path.join(__dirname, filePath);
+  let urlPath = req.url.split('?')[0];
+  if (urlPath === '/') urlPath = '/index.html';
+  let filePath = path.join(__dirname, urlPath);
+  
+  // If path ends with / or has no extension, try index.html inside it
+  if (urlPath.endsWith('/') || !path.extname(urlPath)) {
+    const dirIndex = path.join(filePath, 'index.html');
+    if (fs.existsSync(dirIndex)) filePath = dirIndex;
+  }
   
   const ext = path.extname(filePath);
   const contentType = mimeTypes[ext] || 'application/octet-stream';
